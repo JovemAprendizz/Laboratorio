@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: antiquewhite;
+}
+#logo-lab{
+    padding: 0 0 0 70px;
+    width: 8vw;
+    height: auto;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.menu{
+    height:14% ;
+    padding: 15px 0 10px 0;
+    background-color: #E05A5A;
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+}
+.menu > ul{
+    display: flex;
+    gap: 4rem;
+    list-style: none;
+    margin-left: 8em;
+}
+#color-lab{
+    color: whitesmoke;
+}
+.menu > ul > a> li:hover{
+    color:whitesmoke;
+    cursor: pointer;
+    border-top: 4px solid white;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.header{
+    display: flex;
+    flex: row wrap;   
+}
+.headline{
+    margin-left: 4%;
+    display: flex;
+    flex: 20%;
+    color: white;
+}
+.img-headline{
+    display: flex;
+    width: 15%; 
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cards {
+    display: inline-block;
+    color: black;
+    width: 100%;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin: 1%;
+    border: 1px solid #FF2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+  
