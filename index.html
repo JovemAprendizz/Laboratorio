@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
     <title>Laboratório</title>
 </head>
@@ -17,20 +11,20 @@
     <nav class="menu">
         <img id="logo-lab" src="/imagens/download.png" alt=""> <h1 id="color-lab"> LAB </h1> <h1>clin</h1>
         <ul> 
-            <a href="#"><li>Nossos serviços</li></a>
-            <a href=""><li>Profissionais </li></a>
+            <a href="#nossos-serviços"><li>Nossos serviços</li></a>
             <a href=""><li>Agendamento</li></a>
+            <a href=""><li>Profissionais</li></a>
             <a href=""><li>Quem somos?</li></a>
             <a href=""><li>Contatos</li></a>
         </ul>   
     </nav>
-    <h3 style="display: flex; color: #FF2978; align-items: center; justify-content: center; margin-top: 2%; margin-bottom: 1%; background-color: antiquewhite;">Dicas de prevenção à doenças</h3>
+    <h3 style="display: flex; color: #a71d50; align-items: center; justify-content: center; margin-top: 2%; margin-bottom: 1%; background-color: antiquewhite;">Dicas de prevenção à doenças</h3>
     <header class="header"> 
             <div class="headline">
                 <div class="cards" id="cardcovid" >
                     <div onclick="toggle(1)" class="text-origin-covid" >
                         <h3>COVID-19</h3>
-                        <p> É uma infecção respiratória causada pelo novo coronavírus SARS-CoV-2. A doença é potencialmente grave, altamente transmissível e espalhou-se por todo o mundo no ano de 2019.</p>
+                        <p> É uma infecção respiratória causada pelo novo coronavírus SARS-CoV-2. A doença é potencialmente grave, altamente transmissível e espalhou-se por todo o mundo. Causou uma pandemia no ano de 2019 e teve origem na china</p>
                     </div>
                 </div>
                 <div class="cards">
@@ -42,11 +36,34 @@
                 <div class="cards">
                     <div onclick="toggle(3)" class="text-origin-gripe">
                         <h3>GRIPE</h3>
-                        <p>A gripe é uma infecção aguda do sistema respiratório, provocado pelo vírus da influenza, com grande potencial de transmissão. </p>
+                        <p>A gripe é uma infecção aguda do sistema respiratório, provocado pelo vírus da influenza, com grande potencial de transmissão. Ataca os pulmões, o nariz e a garganta. </p>
                     </div>
                 </div>
             </div>
         <div class="img-headline"> <img src="/imagens/imgHeadline.svg" alt=""> </div>
     </header>
+    <section style="margin-top: 20px;" id="nossos-serviços">
+        <div class="title"> 
+            <h1>Nossos serviços</h1>
+        </div>
+        <div class="Exames">
+            <div class="Hemograma">
+                <h2> Hemograma completo</h2>
+                <p>É um tipo de exame realizado para avaliar os três tipos de células que compõem o sangue: os glóbulos vermelhos, os glóbulos brancos e as plaquetas, que atuam na coagulação do sangue.</p>
+                <P style="color: #893453; display: flex; margin-top: 6.1rem; align-items:start; text-align: start;"> Preço: R$ 25,00. <br> Profissional: Dr. Marcelo</P>
+            </div> 
+            <div class="Colesterol">
+                <h2> <strong>Colesterol</strong></h2>
+                <p>  O colesterol total é a soma das várias frações de colesterol, ou seja, a união do colesterol LDL, HDL e VLDL. O exame mostra os níveis de colesterol e triglicérides na corrente sanguínea.</p>
+                <P style="color: #893453; display: flex; margin-top: 6.2rem; align-items:start; text-align: start;"> Preço: R$ 15,00. <br> Profissional: Dra. Carla</P>
+            </div>
+           <div class="Glicose">
+            <h2> Glicose</h2>
+            <p> O exame de glicemia em jejum serve para medir o nível de glicose do paciente. É necessário estar de 8 a 12 horas de jejum, apenas água é permitido. O exame é utilizado para investigar possíveis casos de diabetes e para controle da doença.</p>
+            <P style="color: #893453; display: flex; margin-top: 3.4rem; align-items:start; text-align: start;"> Preço: R$ 56,00. <br> Profissional: Dra. Priscila</P>
+        </div>
+        </div>
+        
+    </section>
 </body>
 </html>

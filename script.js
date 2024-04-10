@@ -28,7 +28,7 @@ function toggle(num) {
    }
    if (num === 3) {
       texto_original = '<h3>GRIPE</h3><p>A gripe é uma infecção aguda do sistema respiratório, provocado pelo vírus da influenza, com grande potencial de transmissão. </p>';
-      texto_alterado = '<h3>Prevenção:</h3> <ul><li>Evitar aglomerações e o contato com pessoas doentes</li><li>Não levar as mãos aos olhos, boca ou nariz depois de ter tocado em objetos de uso coletivo</li><li>Utilizar lenço descartável para limpar o nariz.</li><li>Utilizar lenço descartável para limpar o nariz.</li></ul> '
+      texto_alterado = '<h3>Prevenção:</h3> <ul><li>Evitar aglomerações e o contato com pessoas doentes</li><li>Não levar as mãos aos olhos, boca ou nariz depois de ter tocado em objetos de uso coletivo</li><li>Utilizar lenço descartável para limpar o nariz.</li></ul> '
       if(GripeOrigin.innerHTML === texto_alterado && num === 3){
          GripeOrigin.innerHTML = texto_original;
          GripeOrigin.parentElement.style.background = '';
